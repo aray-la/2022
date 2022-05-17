@@ -1,0 +1,514 @@
+@font-face {
+   font-family: 'RedactVariable';
+   src: url('OCR-B-Variable-3.ttf') format("truetype-variations");
+}
+
+@font-face {
+   font-family: 'CMU-BoldItalic';
+   src: url('cmu.concrete-bolditalic.ttf') format("truetype-variations");
+}
+
+@font-face {
+   font-family: 'LeetVariable';
+   src: url('OCl2-l3-Variable.ttf') format("truetype-variations");
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: sans-serif;
+   background-color: #E4EADF;
+}
+
+main{
+
+   min-height: 80vh;
+   
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.label {
+   display: inline-block;
+   position: relative;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   color: white;
+   text-align: left;
+   font-size: 13.6px;
+   align-items: left;
+   padding: 6px 8px 5px 8px;
+   float: left;
+  
+}
+
+.label-text{
+   display: inline;
+   position: relative;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   color: white;
+   text-align: left;
+   font-size: 13.6px;
+   align-items: left;
+   padding: 6px 8px 5px 8px;
+   float: left;
+  
+}
+
+#window-title{
+   position: absolute;
+   top: 26px;
+   left: 26px;
+   max-width: 320px;
+   max-height: 220px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   padding: 16px;
+   background-color: white;
+}
+
+#title{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+   color: black;
+   text-align: left;
+   font-size: 20px;
+   padding-bottom: 5px;
+  
+}
+
+.title{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+   color: black;
+   text-align: left;
+   font-size: 16px;
+   padding-bottom: 10px;
+  
+}
+
+#window-text1{
+   position: absolute;
+   top: 200px;
+   left: 30px;
+   height: 140px;
+   max-width: 340px;
+   max-height: 280px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   padding: 13px 16px 13px 16px;
+   background-color: #E7E7E7;
+   overflow: scroll;
+
+   
+}
+
+p {
+margin-bottom: 0.5rem;
+}
+
+#text1{
+  
+}
+
+#window-text2{
+   position: absolute;
+   top: 120px;
+   left: 40px;
+   height: 200px;
+   max-width: 360px;
+   max-height: 280px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   padding: 16px;
+   background-color: white;
+   overflow: scroll;
+   
+}
+
+#window-text3{
+   position: absolute;
+   top: 200px;
+   left: 60px;
+   height: 300px;
+   max-width: 360px;
+   max-height: 280px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   padding: 16px;
+   background-color: white;
+   overflow: scroll;
+   
+}
+
+#window-text4{
+   position: absolute;
+   top: 400px;
+   left: 80px;
+   height: 300px;
+   max-width: 360px;
+   max-height: 280px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   padding: 16px;
+   background-color: white;
+   overflow: scroll;
+   
+}
+
+#img-wrap{
+   position: absolute;
+   top: 300px;
+   left: 50px;
+
+   max-width: 340px;
+   height: 200px;
+
+}
+
+#window-img1{
+   position: absolute;
+   top: 27px;
+  
+   max-width: 340px;
+   height: 200px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   background-color: white;
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+
+
+.img1{
+   margin-top: 10px;
+   width: 340px;
+
+}
+
+#img1-label{
+   display: inline-bloack;
+   position: relative;
+   background-color: black;
+   top: 0px;
+   left: 0px;
+   width: 340px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   color: white;
+   text-align: left;
+   font-size: 13.6px;
+   align-items: left;
+   padding: 6px 8px 5px 8px;
+   float: left;
+}
+
+
+
+.cmu-9{
+   font-family:  "CMU-BoldItalic", "Lucida Console", "Courier New","monospace";
+   font-weight: 500;
+   font-style: italic;
+   color: black;
+   text-align: left;
+   font-size: 14px;
+   line-height:1.4 ;
+}
+
+.cmu-8{
+   font-family:  "CMU-BoldItalic", "Lucida Console", "Courier New","monospace";
+   font-weight: 500;
+   font-style: italic;
+   color: black;
+   text-align: left;
+   font-size: 13px;
+   line-height:1.4 ;
+}
+
+#john{
+   padding-bottom: 8px;
+}
+.arial-10{
+   font-family:  "Arial", "Helvetica", "sans-serif";
+   font-weight: 400;
+   color: black;
+   text-align: left;
+   font-size: 14px;
+   line-height:1.4 ;
+    
+}
+
+
+
+.window{
+ 
+ 
+}
+
+#redact-window{
+   position: absolute;
+   display: grid;
+   grid-template-rows: auto auto;
+   top: 196px;
+   left: 580px;
+   width: 46vw;
+   height: 34vw;
+   background-color: black;
+   border-style: solid;
+   border-color: #656565;
+   border-width: 1px;
+
+}
+
+#redact-label{
+   grid-row: 1;
+   width: 128px;
+   background-color: #656565;
+   top: -28px;
+   left: -1px;
+}
+
+
+
+#redact-content{
+   grid-row: 1;
+   grid-template-rows: auto auto;
+
+   
+ 
+}
+
+#redact-controls{
+   position: relative;
+   top: -14px;
+   grid-row: 2;
+   text-align: center;
+ 
+}
+
+
+#face{
+   position: relative;
+   overflow: scroll;
+   font-family: 'RedactVariable';
+   text-align: center;
+   color: white;
+   --leet-axis: 0;
+   font-size: 5vh;
+   line-height: 1.6;
+   font-variation-settings: 'rdct' var(--leet-axis);
+   padding: 4vh;
+   outline: 0px solid transparent;    
+   width: 46vw;
+   height: 24vw;
+
+}
+
+#leet-window{
+   position: absolute;
+   display: grid;
+   grid-template-rows: auto auto;
+   top: 220px;
+   left: 445px;
+   width: 46vw;
+   height: 30vw;
+   background-color: black;
+   border-style: solid;
+   border-color: #656565;
+   border-width: 1px;
+
+}
+
+#leet-label{
+   grid-row: 1;
+   width: 128px;
+   background-color: #656565;
+   top: -28px;
+   left: -1px;
+}
+
+
+#leet-content{
+   grid-row: 1;
+   grid-template-rows: auto auto;
+
+   
+ 
+}
+
+#leet-controls{
+   position: relative;
+   top: -14px;
+   grid-row: 2;
+   text-align: center;
+ 
+}
+
+
+#leet-face{
+   position: relative;
+   overflow: scroll;
+   font-family: 'LeetVariable';
+   text-align: center;
+   color: white;
+   --leet-axis: 0;
+   font-size: 6vh;
+   line-height: 1.6;
+   font-variation-settings: 'leet' var(--leet-axis);
+   padding: 4vh;
+   outline: 0px solid transparent;    
+   width: 46vw;
+   height: 22vw;
+
+}
+
+button{
+   grid-row: 2;
+   background: none;
+   border: 1px solid white;
+   padding: 5px 20px;
+   margin-left: 50px;
+   font-size: 16px;
+   color: white;
+
+}
+
+#rdct{
+   position: relative;
+   top: 2px;
+}
+
+#leet{
+   position: relative;
+   top: 2px;
+}
+
+label{
+   grid-row: 2;
+   font-family: sans-serif;
+   font-size: 16px;
+   color: white;
+   padding: 5px 20px;
+   margin-right: 20px;
+   
+}
+
+
+#html-window{
+   position: absolute;
+   display: grid;
+   grid-template-rows: auto auto;
+   top: 100px;
+   left: 600px;
+   width: 46vw;
+    
+}
+
+#html-gif{
+   width: 46vw;
+   border-style: solid;
+   border-color: #656FF6;
+   border-width: 1px;
+}
+
+#html-label{
+   position: relative;
+   width: 170px;
+   background-color: #656FF6;
+
+
+}
+
+#shuffle-window{
+   position: absolute;
+   display: grid;
+   grid-template-rows: auto auto;
+   top: 80px;
+   left: 480px;
+   width: 52vw;
+   height: 60vh;
+   background-color: white;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+    
+}
+
+#shuffle-content{
+   position: relative;
+   top: -28px;
+   padding: 30px;
+   width: 52vw;
+   height: 60vh;
+
+}
+
+#shuffle-label{
+   width: 128px;
+   background-color: black;
+   top: -28px;
+   left: -1px;
+
+}
+
+
+#shuffle-title{
+   display: block;
+   margin: auto;
+   font-family: sans-serif;
+   font-size: 1.2rem;
+   height: 25px;
+   max-height: 25px;
+   font-weight: 400;
+   text-align: center;
+   margin-top: -2px;
+   margin-bottom: 10px;
+}
+
+#textarea{
+   margin: auto;
+   position: relative;
+   width: 52vw;
+   height: 50vh;
+   font-size: 7vh;
+   height: 55vh;
+   line-height: 1.5;
+   outline: 0px solid transparent;
+   max-width: 46vw;
+   max-height: 35vh;
+   overflow: scroll;
+}
+
+#shuffle-button{
+   display: block;
+   font-family: sans-serif;
+   background-color: white;
+   padding: 5px 20px;
+   font-size: 16px;
+   color: black;
+   border: solid;
+   border-width: 1.5px;
+   border-color: black;
+   border-radius: 12px;
+   margin: auto;
+   margin-top: 7vh;
+
+}
