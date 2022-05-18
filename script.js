@@ -10,10 +10,18 @@ $( ".drag" ).draggable({
                             .css( "z-index", "0" );
     }
 
+})
+
+.click(function() {
+    $(this).draggable( {disabled: false});
+}).dblclick(function() {
+    $(this).draggable({ disabled: true });
 });
 
 
   } );
+
+
 
 
 
