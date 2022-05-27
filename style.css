@@ -21,7 +21,8 @@
 
 body{
    font-family: sans-serif;
-   background-color: #E4EADF;
+  /* background-color: #E4EADF; */
+   background-color: #EBEBEB;
 }
 
 main{
@@ -312,7 +313,7 @@ margin-bottom: 0.5rem;
    text-align: center;
    color: white;
    --leet-axis: 0;
-   font-size: 5vh;
+   font-size: 40px;
    line-height: 1.6;
    font-variation-settings: 'rdct' var(--leet-axis);
    padding: 4vh;
@@ -370,7 +371,7 @@ margin-bottom: 0.5rem;
    text-align: center;
    color: white;
    --leet-axis: 0;
-   font-size: 6vh;
+   font-size: 40px;
    line-height: 1.6;
    font-variation-settings: 'leet' var(--leet-axis);
    padding: 4vh;
@@ -437,6 +438,31 @@ label{
 
 }
 
+
+#clip-window{
+   position: absolute;
+   display: grid;
+   grid-template-rows: auto auto;
+   top: 100px;
+   left: 600px;
+   width: 46vw;
+    
+}
+
+#clip-gif{
+   width: 46vw;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+}
+
+#clip-label{
+   position: relative;
+   width: 170px;
+   background-color: black;
+
+
+}
 #shuffle-window{
    position: absolute;
    display: grid;
@@ -507,7 +533,7 @@ label{
    border: solid;
    border-width: 1.5px;
    border-color: black;
-   border-radius: 12px;
+   
    margin: auto;
    margin-top: 7vh;
 

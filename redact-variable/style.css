@@ -50,6 +50,7 @@ button{
    background: none;
    border: 1px solid white;
    padding: 5px 20px;
+   margin-left: 20px;
 }
 
 button{
@@ -62,9 +63,13 @@ label{
    font-size: 18px;
    color: white;
    padding: 1.2rem;
-   
+   margin-left: 20px;
 }
 
+#rdct{
+   position: relative;
+  top: 2px;
+}
 
 .field{
    display: inline-block;

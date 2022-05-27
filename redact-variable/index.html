@@ -10,7 +10,7 @@
     crossorigin="anonymous"></script>
   <script type="text/javascript" src="script.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Variable TypeFace</title>
+  <title>Redact Variable</title>
 </head>
 <body>
   <nav>
@@ -18,17 +18,16 @@
       <label for="volume">amount</label>
       <input type="range" id="rdct" name="rdct"
            min="0" max="200" value="0">
+      <button onclick="randomLeet()">randomize</button>
       
     </div>
     
     <div class="field">
-      <button id="play">
-        Play!
-      </button>
+   
     </div>
   </nav>
   <main>
-    <div contenteditable="true" id="face">Sphinx of Black Quartz, Judge my Vow </div>
+    <div contenteditable="true" id="face" style='--leet-axis: 0'>Sphinx of Black Quartz, Judge my Vow </div>
   </main>
 </body>
 </html>
