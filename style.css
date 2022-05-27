@@ -236,7 +236,7 @@ margin-bottom: 0.5rem;
 #window-text9{
    position: absolute;
    top: 720px;
-   left: 600px;
+   left: 420px;
    max-width: 320px;
    border-style: solid;
    border-color: black;
@@ -259,6 +259,115 @@ margin-bottom: 0.5rem;
    background-color: #E7E7E7;
    overflow: scroll;  
 }
+
+#window-text11{
+   position: absolute;
+   top: 640px;
+   left: 80px;
+   max-width: 320px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   padding: 16px;
+   background-color: #E7E7E7;
+   overflow: scroll;  
+}
+
+
+#window-text12{
+   position: absolute;
+   top: 750px;
+   left: 600px;
+   max-width: 320px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   padding: 16px;
+   background-color: #E7E7E7;
+   overflow: scroll;  
+}
+
+
+#window-text13{
+   position: absolute;
+   top: 730px;
+   left: 1020px;
+   max-width: 320px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   padding: 16px;
+   background-color: #E7E7E7;
+   overflow: scroll;  
+}
+
+
+#window-text14{
+   position: absolute;
+   top: 600px;
+   left: 240px;
+   max-width: 320px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   padding: 16px;
+   background-color: #E7E7E7;
+   overflow: scroll;  
+}
+
+#window-text15{
+   position: absolute;
+   top: 700px;
+   left: 300px;
+   max-width: 320px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   padding: 16px;
+   background-color: #E7E7E7;
+   overflow: scroll;  
+}
+
+#window-text16{
+   position: absolute;
+   top: 710px;
+   left: 340px;
+   max-width: 320px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   padding: 16px;
+   background-color: #E7E7E7;
+   overflow: scroll;  
+}
+
+#window-text17{
+   position: absolute;
+   top: 730px;
+   left: 440px;
+   max-width: 320px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   padding: 16px;
+   background-color: #E7E7E7;
+   overflow: scroll;  
+}
+
+#window-text18{
+   position: absolute;
+   top: 640px;
+   left: 1040px;
+   max-width: 320px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   padding: 16px;
+   background-color: #E7E7E7;
+   overflow: scroll;  
+}
+
+
 
 
 #img-wrap{
