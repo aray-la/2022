@@ -112,7 +112,7 @@ a {
    border-color: black;
    border-width: 1px;
    padding: 13px 16px 13px 16px;
-   background-color: #E7E7E7;
+   background-color: white;
    overflow: scroll;
 
    
@@ -137,18 +137,18 @@ margin-bottom: 0.5rem;
    border-color: black;
    border-width: 1px;
    padding: 16px;
-   background-color: white;
+   background-color: #E7E7E7;
    overflow: scroll;
    
 }
 
 #window-text3{
    position: absolute;
-   top: 200px;
-   left: 60px;
+   top: 460px;
+   left: 90px;
    height: 300px;
    max-width: 360px;
-   max-height: 280px;
+   max-height: 160px;
    border-style: solid;
    border-color: black;
    border-width: 1px;
@@ -160,11 +160,11 @@ margin-bottom: 0.5rem;
 
 #window-text4{
    position: absolute;
-   top: 400px;
-   left: 80px;
+   top: 350px;
+   left: 75px;
    height: 300px;
    max-width: 360px;
-   max-height: 280px;
+   max-height: 128px;
    border-style: solid;
    border-color: black;
    border-width: 1px;
@@ -173,6 +173,93 @@ margin-bottom: 0.5rem;
    overflow: scroll;
    
 }
+
+#window-text5{
+   position: absolute;
+   top: 600px;
+   left: 100px;
+   height: 300px;
+   max-width: 360px;
+   max-height: 54px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   padding: 16px;
+   background-color: #E7E7E7;
+   overflow: scroll;
+   
+}
+
+#window-text6{
+   position: absolute;
+   top: 240px;
+   left: 80px;
+   height: 160px;
+   max-width: 340px;
+   max-height: 160px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   padding: 16px;
+   background-color: white;
+   overflow: scroll;
+   
+}
+
+#window-text7{
+   position: absolute;
+   top: 600px;
+   left: 200px;
+   max-width: 320px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   padding: 16px;
+   background-color: #E7E7E7;
+   overflow: scroll;  
+}
+
+#window-text8{
+   position: absolute;
+   top: 170px;
+   left: 290px;
+   max-width: 300px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   padding: 16px;
+   background-color: #E7E7E7;
+   overflow: scroll;  
+}
+
+
+#window-text9{
+   position: absolute;
+   top: 720px;
+   left: 600px;
+   max-width: 320px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   padding: 16px;
+   background-color: #E7E7E7;
+   overflow: scroll;  
+}
+
+
+#window-text10{
+   position: absolute;
+   top: 700px;
+   left: 800px;
+   max-width: 320px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   padding: 16px;
+   background-color: #E7E7E7;
+   overflow: scroll;  
+}
+
 
 #img-wrap{
    position: absolute;
@@ -269,7 +356,7 @@ margin-bottom: 0.5rem;
    display: grid;
    grid-template-rows: auto auto;
    top: 196px;
-   left: 580px;
+   left: 600px;
    width: 46vw;
    height: 34vw;
    background-color: black;
@@ -281,7 +368,7 @@ margin-bottom: 0.5rem;
 
 #redact-label{
    grid-row: 1;
-   width: 128px;
+   width: 116px;
    background-color: #656565;
    top: -28px;
    left: -1px;
@@ -328,7 +415,7 @@ margin-bottom: 0.5rem;
    display: grid;
    grid-template-rows: auto auto;
    top: 220px;
-   left: 445px;
+   left: 465px;
    width: 46vw;
    height: 30vw;
    background-color: black;
@@ -340,7 +427,7 @@ margin-bottom: 0.5rem;
 
 #leet-label{
    grid-row: 1;
-   width: 128px;
+   width: 72px;
    background-color: #656565;
    top: -28px;
    left: -1px;
@@ -418,7 +505,7 @@ label{
    display: grid;
    grid-template-rows: auto auto;
    top: 100px;
-   left: 600px;
+   left: 650px;
    width: 46vw;
     
 }
@@ -432,7 +519,7 @@ label{
 
 #html-label{
    position: relative;
-   width: 170px;
+   width: 160px;
    background-color: #656FF6;
 
 
@@ -444,7 +531,7 @@ label{
    display: grid;
    grid-template-rows: auto auto;
    top: 100px;
-   left: 600px;
+   left: 620px;
    width: 46vw;
     
 }
@@ -458,7 +545,7 @@ label{
 
 #clip-label{
    position: relative;
-   width: 170px;
+   width: 158px;
    background-color: black;
 
 
@@ -468,7 +555,7 @@ label{
    display: grid;
    grid-template-rows: auto auto;
    top: 80px;
-   left: 480px;
+   left: 660px;
    width: 52vw;
    height: 60vh;
    background-color: white;
@@ -488,7 +575,7 @@ label{
 }
 
 #shuffle-label{
-   width: 128px;
+   width: 120px;
    background-color: black;
    top: -28px;
    left: -1px;
